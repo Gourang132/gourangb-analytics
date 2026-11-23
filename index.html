@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gourang Baviskar — Data Analyst & BI Engineer</title>
+<title>Gourang Baviskar — Pricing Analyst · Senior Data Analyst · BI Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <style>
@@ -312,6 +312,19 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
 .rv.on{opacity:1;transform:none}
 .d1{transition-delay:.07s}.d2{transition-delay:.14s}.d3{transition-delay:.21s}
 
+/* ── GALLERY ── */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:2px}
+.gal:empty{display:none}
+.gitem{background:var(--bg2);border:1px solid var(--bd);cursor:zoom-in;overflow:hidden;transition:border-color .25s}
+.gitem:hover{border-color:var(--bd2)}
+.gitem img{width:100%;display:block;aspect-ratio:16/10;object-fit:cover}
+.gcap{padding:12px 16px;display:flex;justify-content:space-between;gap:10px;font-size:10px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.gcap b{color:var(--text);font-weight:500}
+#lb{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.93);display:none;align-items:center;justify-content:center;padding:24px;cursor:zoom-out}
+#lb.on{display:flex}
+#lb img{max-width:100%;max-height:100%;border:1px solid var(--bd2)}
+@media(max-width:920px){.gal{grid-template-columns:1fr}}
+
 /* ── RESPONSIVE ── */
 @media(max-width:920px){
   nav{padding:16px 20px}.nlinks{display:none}
@@ -326,6 +339,7 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
 </head>
 <body>
 <div id="cdot"></div>
+<div id="lb"><img alt=""></div>
 
 <!-- NAV -->
 <nav id="nav">
@@ -346,28 +360,29 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
   <div class="hcont">
     <div class="hprompt">
       <span class="c1">whoami</span>
-      &nbsp;|&nbsp;<span class="c2">--role senior-data-analyst</span>
+      &nbsp;|&nbsp;<span class="c2">--roles pricing-analyst,senior-data-analyst,bi-engineer</span>
       &nbsp;|&nbsp;<span class="c2">--location pune-india</span>
-      &nbsp;|&nbsp;<span class="c2">--open-to remote,hybrid</span>
+      &nbsp;|&nbsp;<span class="c2">--join immediate</span>
     </div>
     <div class="hname">Gourang<br>Baviskar.</div>
-    <div class="hrole">Data Analyst &amp; BI Engineer</div>
+    <div class="hrole">Senior Data Analyst · BI Engineer · Pricing Analytics</div>
     <p class="hsub">
-      Senior Data Analyst &amp; BI Engineer building scalable analytics systems and AI-powered products.
-      Reduced reporting time by <span class="num">84%</span> and built <span class="hi">DAXgen</span> —
-      a live AI SaaS used by analysts to generate production-ready DAX from plain English.
-      Also built <span class="hi">TableauIQ</span> — AI that writes Tableau LOD expressions (FIXED / INCLUDE / EXCLUDE) from plain English.
+      Senior Data Analyst &amp; BI Engineer with <span class="num">5+ years</span> in pricing analytics and BI for global teams
+      across Belgium, UK, US and China. Power BI + Tableau dashboards on SQL Server, BigQuery and Azure Data Factory.
+      Also built two live AI tools for BI developers — <span class="hi">DAXgen</span> (Power BI DAX) and
+      <span class="hi">TableauIQ</span> (Tableau LOD expressions).
     </p>
-    <div class="hrecruit">Available immediately. Notice period negotiable. Targeting ₹12–20 LPA · MNC / Fortune 500.</div>
+    <div class="hrecruit">Immediate joiner · Pune · open to Netherlands &amp; Europe.</div>
+    <div class="chips" style="margin:14px 0 0"><span class="chip" style="color:var(--amb);border-color:rgba(245,166,35,.4)">Pricing Analyst</span><span class="chip" style="color:var(--amb);border-color:rgba(245,166,35,.4)">Senior Data Analyst</span><span class="chip" style="color:var(--amb);border-color:rgba(245,166,35,.4)">BI Engineer</span></div>
     <div class="hbtns">
       <a href="https://daxgen.vercel.app" target="_blank" class="btn btn-g">⚡ DAXgen — AI for Power BI</a>
-      <a href="https://tableau-iq.vercel.app" target="_blank" class="btn btn-amb">📐 TableauIQ — AI for Tableau</a>
-      <a href="Gourang_Baviskar_ATS95_Final.pdf" download class="btn btn-ghost">↓ Download Resume</a>
+      <a href="https://tableauiq.in" target="_blank" class="btn btn-amb">📐 TableauIQ — AI for Tableau</a>
+      <a href="Gourang_Baviskar_Senior_Data_Analyst_Power_BI.pdf" download class="btn btn-ghost">↓ Download Resume</a>
     </div>
     <div class="hstats">
-      <div class="hstat"><div class="sv" data-to="4">0</div><div class="sk">Years XP</div></div>
-      <div class="hstat"><div class="sv" data-to="15">0</div><div class="sk">Dashboards Shipped</div></div>
-      <div class="hstat"><div class="sv">84%</div><div class="sk">Reporting Speed Gain</div></div>
+      <div class="hstat"><div class="sv" data-to="5">0</div><div class="sk">Years XP</div></div>
+      <div class="hstat"><div class="sv">35%</div><div class="sk">Fewer Ad-hoc Requests</div></div>
+      <div class="hstat"><div class="sv">500K+</div><div class="sk">Daily Txns Optimised</div></div>
       <div class="hstat"><div class="sv" data-to="2">0</div><div class="sk">Live AI SaaS Products</div></div>
     </div>
   </div>
@@ -380,7 +395,7 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
     <span class="ti">DAX<span class="sep">✦</span></span>
     <span class="ti">Azure Data Factory<span class="sep">✦</span></span>
     <span class="ti">SQL Server<span class="sep">✦</span></span>
-    <span class="ti">Python<span class="sep">✦</span></span>
+    <span class="ti">Python<span class="sep">✦</span></span><span class="ti">Pricing Analytics<span class="sep">✦</span></span><span class="ti">Tableau<span class="sep">✦</span></span><span class="ti">BigQuery<span class="sep">✦</span></span>
     <span class="ti">LLM Pipelines<span class="sep">✦</span></span>
     <span class="ti">Agentic AI<span class="sep">✦</span></span>
     <span class="ti">Databricks<span class="sep">✦</span></span>
@@ -393,7 +408,7 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
     <span class="ti">DAX<span class="sep">✦</span></span>
     <span class="ti">Azure Data Factory<span class="sep">✦</span></span>
     <span class="ti">SQL Server<span class="sep">✦</span></span>
-    <span class="ti">Python<span class="sep">✦</span></span>
+    <span class="ti">Python<span class="sep">✦</span></span><span class="ti">Pricing Analytics<span class="sep">✦</span></span><span class="ti">Tableau<span class="sep">✦</span></span><span class="ti">BigQuery<span class="sep">✦</span></span>
     <span class="ti">LLM Pipelines<span class="sep">✦</span></span>
     <span class="ti">Agentic AI<span class="sep">✦</span></span>
     <span class="ti">Databricks<span class="sep">✦</span></span>
@@ -488,10 +503,10 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
       <div class="pcard amber rv d1">
         <div class="picon">📐</div>
         <div class="pname"><span class="aa">Tableau</span>IQ</div>
-        <div class="psub a">Live · tableau-iq.vercel.app</div>
+        <div class="psub a">Live · tableauiq.in</div>
         <p class="pdesc">AI SaaS that converts plain English into correct Tableau LOD expressions (FIXED / INCLUDE / EXCLUDE) — powered by a 5-agent LLM pipeline. Handles filter context, nested LODs, and table calc combinations. Free / Pro ₹499/mo / Lifetime ₹2999. Built because LOD expressions break silently and nobody should guess.</p>
         <div class="chips"><span class="chip">Llama 3.3 70B</span><span class="chip">Groq API</span><span class="chip">Vercel</span><span class="chip">Supabase</span><span class="chip">Razorpay</span><span class="chip">LOD Engine</span></div>
-        <br><a href="https://tableau-iq.vercel.app" target="_blank" class="plink a">Launch TableauIQ →</a>
+        <br><a href="https://tableauiq.in" target="_blank" class="plink a">Launch TableauIQ →</a>
       </div>
     </div>
   </div>
@@ -501,31 +516,21 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
 <section id="experience">
   <div class="si">
     <div class="slabel rv">03 / Experience</div>
-    <h2 class="stitle rv">4+ Years,<br><span class="acc">End-to-End</span> Ownership.</h2>
+    <h2 class="stitle rv">5+ Years,<br><span class="acc">Global</span> BI &amp; Pricing.</h2>
     <div class="exp-list">
       <div class="ecard rv">
-        <div class="ehead">
-          <div><div class="erole">Senior Data Analyst</div><div class="eco">eClerx Services Limited</div></div>
-          <div class="eperiod">Apr 2025 – Present · Pune<br><span class="ecurr">Current</span></div>
-        </div>
-        <ul class="eul">
-          <li>Owned end-to-end analytics for global BI products — designed data models, built self-serve Power BI dashboards, drove adoption across <span class="num">5+</span> business units, reducing ad-hoc requests by <span class="num">35%</span>.</li>
-          <li>Resolved critical pipeline bottleneck via <span class="hi">T-SQL redesign &amp; indexing</span> on <span class="hi">500K+ daily-transaction warehouse</span> — cut report load time by <span class="num">20%</span>, unblocking leadership reporting.</li>
-          <li>Shipped <span class="hi">ADF &amp; SSIS pipelines</span> eliminating 100% manual reconciliation — <span class="num">99.9%</span> data accuracy across 5+ global BUs.</li>
-          <li>Integrated <span class="hi">Python ML models</span> into Power BI — improved revenue forecast accuracy by <span class="num">15%</span>.</li>
-        </ul>
-        <div class="etags"><span class="etag">Power BI</span><span class="etag">DAX</span><span class="etag">SQL Server</span><span class="etag">Azure Data Factory</span><span class="etag">SSIS</span><span class="etag">Python</span><span class="etag">Databricks</span><span class="etag">Microsoft Fabric</span></div>
+        <div class="ehead"><div><div class="erole">Pricing Performance Analyst</div><div class="eco">TVH · Belgium-based MNC</div></div><div class="eperiod">Jun 2026 – Nov 2026 · Pune / Belgium<br><span class="ecurr">Global MNC</span></div></div>
+        <ul class="eul"><li>Built <span class="hi">Tableau KPI dashboards</span> tracking profit margin, prices and turnover by region, including a filterable KPI one-pager with vs-target indicators, for an international pricing team.</li><li>Built an <span class="hi">alignment tracker</span> comparing two pricing systems during a parallel run, monitoring <span class="num">13</span> percentage KPIs by month.</li><li>Queried and prepared large pricing datasets in <span class="hi">SQL and Google BigQuery (GCP)</span> for trend analysis and ad hoc requests from Belgium-based and cross-functional stakeholders.</li><li>Spent <span class="num">one month in Belgium</span> working in person with colleagues and global stakeholders on turnover, profit and margin reporting.</li></ul>
+        <div class="etags"><span class="etag">Tableau</span><span class="etag">SQL</span><span class="etag">Google BigQuery</span><span class="etag">GCP</span><span class="etag">Pricing Analytics</span><span class="etag">KPI Design</span></div>
       </div>
       <div class="ecard rv d1">
-        <div class="ehead">
-          <div><div class="erole">Data Analyst</div><div class="eco">eClerx Services Limited</div></div>
-          <div class="eperiod">Aug 2021 – Apr 2025 · Pune</div>
-        </div>
-        <ul class="eul">
-          <li>Built <span class="num">15+</span> Power BI dashboards — owned full lifecycle from data modeling and DAX development to delivery across <span class="num">10+</span> global business units.</li>
-          <li>Designed <span class="hi">Kimball star/snowflake schema (SCD Type 2)</span> — cut Avnet report generation from <span class="num">2 hrs → 20 min</span> (<span class="num">84% faster</span>).</li>
-          <li>Mentored <span class="num">6 junior analysts</span>, improving team velocity by <span class="num">25%</span>. Received <span class="hi">Outstanding Analyst Award 2024</span>.</li>
-        </ul>
+        <div class="ehead"><div><div class="erole">Senior Data Analyst</div><div class="eco">eClerx Services Limited</div></div><div class="eperiod">Apr 2025 – May 2026 · Pune</div></div>
+        <ul class="eul"><li>Owned end-to-end analytics for global BI products — data models and self-service Power BI dashboards used by <span class="num">5+</span> business units; reduced ad-hoc requests by <span class="num">35%</span>.</li><li>Redesigned <span class="hi">T-SQL queries and indexing</span> for a warehouse processing <span class="num">500K+</span> daily transactions, reducing report load time by <span class="num">20%</span>.</li><li>Analysed a <span class="num">~3M-row</span> electronic-component pricing dataset in Python to detect and quantify three types of packaging-variant price mismatches (~13,500, ~250 and ~60 issue groups).</li><li>Integrated <span class="hi">Python ML models</span> into Power BI dashboards, improving revenue forecast accuracy by <span class="num">15%</span>.</li></ul>
+        <div class="etags"><span class="etag">Power BI</span><span class="etag">DAX</span><span class="etag">SQL Server</span><span class="etag">Python</span><span class="etag">Azure Data Factory</span><span class="etag">SSIS</span><span class="etag">Databricks</span><span class="etag">Microsoft Fabric</span></div>
+      </div>
+      <div class="ecard rv d2">
+        <div class="ehead"><div><div class="erole">Data Analyst</div><div class="eco">eClerx Services Limited</div></div><div class="eperiod">Aug 2021 – Apr 2025 · Pune</div></div>
+        <ul class="eul"><li>Built <span class="num">5+</span> Power BI dashboards, owning the lifecycle from data modelling and DAX development to delivery across <span class="num">5+</span> global business units in the UK, US and China.</li><li>Built <span class="hi">Azure Data Factory pipelines</span> that eliminated manual reconciliation of source data.</li><li>Designed <span class="hi">Kimball star/snowflake</span> models and SCD Type 2 structures for enterprise reporting.</li><li>Mentored <span class="num">6</span> junior analysts, contributing to a <span class="num">25%</span> improvement in team velocity.</li></ul>
         <div class="etags"><span class="etag">Power BI</span><span class="etag">DAX</span><span class="etag">SQL Server</span><span class="etag">Tableau</span><span class="etag">SSIS</span><span class="etag">Python</span><span class="etag">Excel</span></div>
       </div>
     </div>
@@ -538,8 +543,8 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
     <div class="slabel rv">04 / Technical Skills</div>
     <h2 class="stitle rv">Full-Stack<br><span class="acc">Analytics.</span></h2>
     <div class="sk-grid">
-      <div class="skb rv"><div class="skico">📊</div><div class="skname">Analytics &amp; BI</div><div class="skitems"><span>Power BI · DAX · M Query</span><span>RLS · Incremental Refresh</span><span>Dataflows · Paginated Reports</span><span>Tableau · SSRS</span></div><div class="skbar"><div class="skfill" style="--w:95%"></div></div></div>
-      <div class="skb rv d1"><div class="skico">⚙️</div><div class="skname">Data Engineering</div><div class="skitems"><span>SQL Server · T-SQL</span><span>Azure Data Factory · SSIS</span><span>Star/Snowflake · SCD Type 2</span><span>ETL/ELT · DWH</span></div><div class="skbar"><div class="skfill" style="--w:88%"></div></div></div>
+      <div class="skb rv"><div class="skico">📊</div><div class="skname">Analytics &amp; BI</div><div class="skitems"><span>Power BI · DAX · M Query</span><span>RLS · Incremental Refresh</span><span>Dataflows · Paginated Reports</span><span>Tableau (LOD, Table Calcs) · SSRS</span></div><div class="skbar"><div class="skfill" style="--w:95%"></div></div></div>
+      <div class="skb rv d1"><div class="skico">⚙️</div><div class="skname">Data Engineering</div><div class="skitems"><span>SQL Server · T-SQL</span><span>Azure Data Factory · SSIS</span><span>Star/Snowflake · SCD Type 2</span><span>Google BigQuery · GCP</span><span>ETL/ELT · DWH</span></div><div class="skbar"><div class="skfill" style="--w:88%"></div></div></div>
       <div class="skb rv d2"><div class="skico">🐍</div><div class="skname">Programming</div><div class="skitems"><span>Python · Pandas · NumPy</span><span>scikit-learn · REST APIs</span><span>Statistical Analysis</span><span>Git · Linux</span></div><div class="skbar"><div class="skfill" style="--w:78%"></div></div></div>
       <div class="skb rv"><div class="skico">☁️</div><div class="skname">Cloud &amp; Stack</div><div class="skitems"><span>Azure · ADF · Synapse</span><span>Databricks · Fabric</span><span>Power BI Service · AWS</span></div><div class="skbar"><div class="skfill" style="--w:80%"></div></div></div>
       <div class="skb rv d1"><div class="skico">🤖</div><div class="skname">AI &amp; Product</div><div class="skitems"><span>LLM Pipelines · Agentic AI</span><span>Groq API · Llama 3.3 70B</span><span>Vercel · Supabase · SaaS</span><span>Full Product Ownership</span></div><div class="skbar"><div class="skfill" style="--w:85%"></div></div></div>
@@ -554,8 +559,8 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
     <h2 class="stitle rv">Built.<br><span class="acc">Shipped.</span> Real.</h2>
     <div class="pj-grid">
       <div class="pjcard rv"><div class="pjn">01</div><div class="pjname">DAXgen — AI SaaS</div><p class="pjdesc">Live AI product generating optimized Power BI DAX from plain English. 5-agent LLM pipeline. Paid tiers. Razorpay. Shipped in 48 hours with real user traffic.</p><div class="pjtags"><span class="pjtag">Llama 3.3 70B</span><span class="pjtag">Groq API</span><span class="pjtag">Vercel</span><span class="pjtag">Supabase</span></div><a href="https://daxgen.vercel.app" target="_blank" class="pjlink">daxgen.vercel.app →</a></div>
-      <div class="pjcard rv d1"><div class="pjn">02</div><div class="pjname">Newark — E-Commerce Analytics</div><p class="pjdesc">Multi-region Power BI platform with RLS for 5 stakeholder groups (UK, US, China). Revenue, acquisition &amp; inventory KPIs. ADF/SSIS improved refresh by 35%.</p><div class="pjtags"><span class="pjtag">Power BI</span><span class="pjtag">DAX</span><span class="pjtag">SQL Server</span><span class="pjtag">ADF</span></div></div>
-      <div class="pjcard rv d2"><div class="pjn">03</div><div class="pjname">Avnet — Global Sales BI</div><p class="pjdesc">Scalable BI across multi-region datasets. Report generation cut from 2 hrs → 20 min (84% faster) via star-schema modeling and automated data quality validation.</p><div class="pjtags"><span class="pjtag">Power BI</span><span class="pjtag">Star Schema</span><span class="pjtag">ETL</span><span class="pjtag">Python</span></div></div>
+      <div class="pjcard rv d1"><div class="pjn">02</div><div class="pjname">Newark — E-Commerce Analytics</div><p class="pjdesc">Multi-region Power BI product with RLS for 5 stakeholder groups (revenue, acquisition, inventory KPIs); ADF improved data refresh by 35%. Also tuned an 11M-row SSIS / SQL Server pricing pipeline (targeting ~24 hrs to ~1 hr).</p><div class="pjtags"><span class="pjtag">Power BI</span><span class="pjtag">DAX</span><span class="pjtag">SQL Server</span><span class="pjtag">ADF</span></div></div>
+      <div class="pjcard rv d2"><div class="pjn">03</div><div class="pjname">TVH — Pricing KPI Dashboards</div><p class="pjdesc">Tableau KPI one-pager (profit margin, prices, turnover by region, vs-target indicators) and an alignment tracker comparing two pricing systems across 13 KPIs during a parallel run.</p><div class="pjtags"><span class="pjtag">Tableau</span><span class="pjtag">BigQuery</span><span class="pjtag">SQL</span><span class="pjtag">Pricing</span></div></div></div>
     </div>
   </div>
 </section>
@@ -614,13 +619,11 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
       </div>
     </div>
 
+    <div class="gal" id="gallery"></div>
+
     <div style="margin-top:2px;background:var(--bg2);border:1px solid var(--bd);padding:28px 32px;" class="rv">
       <div style="font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px;">💡 More dashboards available on request</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.85;">
-        <strong style="color:var(--text)">Newark</strong> (UK/US/China multi-region RLS) &nbsp;·&nbsp;
-        <strong style="color:var(--text)">Avnet</strong> Global Sales Intelligence &nbsp;·&nbsp;
-        <strong style="color:var(--text)">eClerx Internal</strong> BI products (500K+ daily transactions) — available during interviews.
-      </div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.85;"><strong style="color:var(--text)">TVH</strong> Tableau pricing KPI one-pager &nbsp;·&nbsp; <strong style="color:var(--text)">Newark</strong> multi-region Power BI (RLS) &nbsp;·&nbsp; <strong style="color:var(--text)">eClerx</strong> internal BI products — walkthrough available in interviews (client data stays private).</div>
       <a href="mailto:gourangbaviskar777@gmail.com" class="btn btn-ghost" style="margin-top:18px;display:inline-flex;">Request Dashboard Walkthrough →</a>
     </div>
   </div>
@@ -654,18 +657,18 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
   <div class="ctinner">
     <div class="slabel rv" style="justify-content:center">08 / Let's Connect</div>
     <h2 class="ctbig rv">Open to<br><span class="a">Great Work.</span></h2>
-    <p class="ctnote rv">Targeting Senior Data Analyst / Power BI Engineer roles at MNCs &amp; Fortune 500. Pune-based. Open to remote and hybrid. Salary target ₹12–20 LPA.</p>
-    <div class="ctavail rv">Available immediately. Notice period negotiable.</div>
+    <p class="ctnote rv">Open to Pricing Analyst, Senior Data Analyst and BI Engineer roles at product-based MNCs. Pune-based, open to the Netherlands &amp; Europe.</p>
+    <div class="ctavail rv">Immediate joiner.</div>
     <div class="ctbtns rv">
       <a href="mailto:gourangbaviskar777@gmail.com" class="btn btn-g">✉ Email Me</a>
-      <a href="Gourang_Baviskar_ATS95_Final.pdf" download class="btn btn-amb">↓ Resume</a>
+      <a href="Gourang_Baviskar_Senior_Data_Analyst_Power_BI.pdf" download class="btn btn-amb">↓ Resume</a>
       <a href="https://linkedin.com/in/gourang-baviskar7799" target="_blank" class="btn btn-ghost">LinkedIn ↗</a>
       <a href="https://daxgen.vercel.app" target="_blank" class="btn btn-ghost">⚡ DAXgen ↗</a>
-      <a href="https://tableau-iq.vercel.app" target="_blank" class="btn btn-ghost">📐 TableauIQ ↗</a>
+      <a href="https://tableauiq.in" target="_blank" class="btn btn-ghost">📐 TableauIQ ↗</a>
     </div>
     <div class="ctinfo rv">
       +91 7744880092 · gourangbaviskar777@gmail.com · Pune, India<br>
-      github.com/Gourang132 · linkedin.com/in/gourang-baviskar7799 · daxgen.vercel.app
+      github.com/Gourang132 · linkedin.com/in/gourang-baviskar7799 · gourangb-analytics.vercel.app
     </div>
   </div>
 </section>
@@ -674,7 +677,7 @@ footer{padding:28px 52px;border-top:1px solid var(--bd);background:var(--bg2);
   <div class="fcopy">© 2026 Gourang Baviskar. Built with precision.</div>
   <div class="flinks">
     <a href="https://daxgen.vercel.app" target="_blank">DAXgen</a>
-    <a href="https://tableau-iq.vercel.app" target="_blank">TableauIQ</a>
+    <a href="https://tableauiq.in" target="_blank">TableauIQ</a>
     <a href="https://linkedin.com/in/gourang-baviskar7799" target="_blank">LinkedIn</a>
     <a href="https://github.com/Gourang132" target="_blank">GitHub</a>
     <a href="mailto:gourangbaviskar777@gmail.com">Email</a>
@@ -729,6 +732,21 @@ const co = new IntersectionObserver(entries => {
   });
 }, {threshold: 0.5});
 document.querySelectorAll('[data-to]').forEach(el => co.observe(el));
+
+/* ── SCREENSHOT GALLERY: add one line per screenshot (file in same folder) ── */
+const SHOTS=[
+  // {src:'tvh-kpi-onepager.png', title:'TVH KPI One-Pager', tag:'Tableau'},
+  // {src:'alignment-tracker.png', title:'Pricing Alignment Tracker', tag:'Tableau'},
+];
+const lb=document.getElementById('lb');
+lb.onclick=()=>lb.classList.remove('on');
+const gal=document.getElementById('gallery');
+SHOTS.forEach(x=>{
+  const d=document.createElement('div');d.className='gitem rv';
+  d.innerHTML=`<img src="${x.src}" alt="${x.title}" loading="lazy"><div class="gcap"><b>${x.title}</b><span>${x.tag}</span></div>`;
+  d.onclick=()=>{lb.querySelector('img').src=x.src;lb.classList.add('on')};
+  gal.appendChild(d);ro.observe(d);
+});
 </script>
 </body>
 </html>
